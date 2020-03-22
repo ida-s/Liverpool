@@ -37,6 +37,7 @@ ul {
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3 ease-in-out;
+    display: none;
 
     &:hover {
         background: #91001b ;

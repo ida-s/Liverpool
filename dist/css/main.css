@@ -133,7 +133,8 @@ ul {
   color: #eee;
   border-radius: 50%;
   cursor: pointer;
-  transition: all 0.3 ease-in-out; }
+  transition: all 0.3 ease-in-out;
+  display: none; }
   .go-top:hover {
     background: #91001b; }
 
@@ -661,7 +662,8 @@ ul {
     height: 120px;
     animation: animate 0.5s infinite; }
   #header-home .logo-container {
-    top: 40px; }
+    top: 40px;
+    z-index: 1; }
   #header-home .logo-clicked {
     justify-content: flex-end;
     top: 20px; }
