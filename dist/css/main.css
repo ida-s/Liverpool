@@ -240,7 +240,9 @@ ul {
     width: 100%;
     color: #d00027;
     text-transform: uppercase;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 2rem; }
   #home-a .next-match .game-info {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 1.5fr;
@@ -288,59 +290,62 @@ ul {
       justify-items: center;
       grid-gap: 0.5rem; }
 
-#home-b .matches {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem; }
-  #home-b .matches .section-title {
-    color: #d00027;
-    margin-bottom: 2.5rem; }
-  #home-b .matches .next-matches :last-child, #home-b .matches .recent-results :last-child {
-    margin-bottom: 0; }
-  #home-b .matches .match {
+#home-b {
+  padding: 6rem 0; }
+  #home-b .matches {
     display: grid;
-    grid-template-columns: 2fr 0.75fr 2fr;
-    justify-content: space-between;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 2rem; }
-    #home-b .matches .match p {
-      color: #eee;
-      font-size: 1.5rem;
-      align-self: center; }
-    #home-b .matches .match .team-l {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center; }
-      #home-b .matches .match .team-l p {
-        margin-left: 10px; }
-    #home-b .matches .match .team-r {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center; }
-      #home-b .matches .match .team-r p {
-        margin-right: 10px; }
-    #home-b .matches .match .team-name {
-      color: #999;
-      font-size: 1.2rem; }
-    #home-b .matches .match .info, #home-b .matches .match .date {
-      grid-column: 1/4;
-      text-transform: capitalize; }
-    #home-b .matches .match .info {
-      color: #5b5b5b;
-      font-size: 1.3rem; }
-    #home-b .matches .match .date {
-      color: #707070; }
-  #home-b .matches .img-m {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: #474747; }
-    #home-b .matches .img-m .logo-l {
-      height: 80px;
-      width: 80px;
-      margin: auto;
-      padding: 0.7rem 0.65rem; }
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem; }
+    #home-b .matches .section-title {
+      color: #d00027;
+      margin-bottom: 2.5rem;
+      font-weight: 300; }
+    #home-b .matches .next-matches :last-child, #home-b .matches .recent-results :last-child {
+      margin-bottom: 0; }
+    #home-b .matches .match {
+      display: grid;
+      grid-template-columns: 2fr 0.75fr 2fr;
+      justify-content: space-between;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 2rem; }
+      #home-b .matches .match p {
+        color: #eee;
+        font-size: 1.5rem;
+        align-self: center; }
+      #home-b .matches .match .team-l {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        #home-b .matches .match .team-l p {
+          margin-left: 10px; }
+      #home-b .matches .match .team-r {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; }
+        #home-b .matches .match .team-r p {
+          margin-right: 10px; }
+      #home-b .matches .match .team-name {
+        color: #999;
+        font-size: 1.2rem; }
+      #home-b .matches .match .info, #home-b .matches .match .date {
+        grid-column: 1/4;
+        text-transform: capitalize; }
+      #home-b .matches .match .info {
+        color: #5b5b5b;
+        font-size: 1.3rem; }
+      #home-b .matches .match .date {
+        color: #707070; }
+    #home-b .matches .img-m {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: #474747; }
+      #home-b .matches .img-m .logo-l {
+        height: 80px;
+        width: 80px;
+        margin: auto;
+        padding: 0.7rem 0.65rem; }
 
 #home-c .section-title {
   color: #eee; }
@@ -379,6 +384,7 @@ ul {
   #home-d .shop p {
     text-transform: capitalize;
     font-size: 2.5rem;
+    font-weight: 300;
     color: #d00027;
     margin-bottom: 2rem; }
   #home-d .shop div {

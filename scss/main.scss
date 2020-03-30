@@ -138,41 +138,6 @@ ul {
                 }    
             }        
 
-
-            // index1
-            // #home-nav {
-            //     padding-top:55px;
-
-                
-                
-            //     ul {   
-            //         display: grid;
-            //         justify-items: center;                 
-            //         grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
-            //         grid-gap: 1rem;
-            //     }
-                
-            //     li a {
-            //         display: inline-block;
-            //         color: $light-color;
-            //         text-decoration: none;
-            //         text-transform: uppercase;
-            //         padding: 0.5rem;
-            //         transition: all 0.5s;
-
-
-            //         &.current {
-            //             color: $dark-color;
-            //         }
-
-            //         &:hover {                
-            //             color: #00a398;
-            //         }
-            //     }
-            // }
-
-
-
         &-logo {
             height: 150px;
             width: auto;
@@ -196,6 +161,7 @@ ul {
         }
     }
 }
+
 // Home Page 
 #showcase {
     background: url(../img/showcase.jpg) center center/cover;
@@ -232,6 +198,8 @@ ul {
                 color: $main-color;
                 text-transform: uppercase;
                 margin-bottom: 2rem;
+                font-weight: 300;
+                font-size: 2rem;
             }
 
             .game-info {
@@ -310,6 +278,7 @@ ul {
     }
 
     &-b {
+        padding: 6rem 0;
         .matches {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -318,6 +287,7 @@ ul {
             .section-title {
                 color: $main-color;
                 margin-bottom: 2.5rem;
+                font-weight: 300;
             }
 
             .next-matches , .recent-results {
@@ -455,6 +425,7 @@ ul {
             p {
                 text-transform: capitalize;
                 font-size: 2.5rem;
+                font-weight: 300;
                 color: $main-color;
                 margin-bottom: 2rem;
             }
